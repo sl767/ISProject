@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Stacy Lee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+
+
+</head>
+<img src="images/SL_logo.png" height= "75">
+<h1>Stacy Lee</h1>
+<body>
+<header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="resume.html">Resume</a>
+                <ul>
+                    <li><a href="currentresume.html">Current Resume</a></li>
+                </ul>
+            </li>
+            <li><a href="portfolio.html">Portfolio</a>
+                <ul>
+                    <li><a href="current.html">Current Projects</a></li>
+                    <li><a href="upcoming.html">Upcoming Projects</a></li>
+                    <li><a href="pastexperiences.html">Past Experiences</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="about.html"> About Me</a>
+                <ul>
+                    <li><a href="moreinfo.html">More Info</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <aside>
+        Current resume updated as needed. Click on image to redirect to updated resume.
+    </aside>
+    <a href="currentresume.html">
+    <img src="images/resume.PNG" height="250px"  alt="resume"></a>
+</main>
+<footer>
+    <p>&copy; Stacy Lee, 2019</p>
+</footer>
+</body>
+</html>
